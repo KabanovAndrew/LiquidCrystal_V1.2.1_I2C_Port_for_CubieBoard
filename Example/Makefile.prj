@@ -1,0 +1,14 @@
+TARGET = lcdTest
+
+DIRS = . ../Driver
+
+INCPATH = -I. -I../Driver
+
+DEFINES = 
+CFLAGS = -g
+CXXFLAGS = $(CFLAGS)
+LDFLAGS  = 
+LIBS     = 
+
+PARAM = 
+ARC = Makefile*
